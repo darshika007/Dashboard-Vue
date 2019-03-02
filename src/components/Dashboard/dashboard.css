@@ -1,0 +1,230 @@
+body{
+  font-family: sans-serif;
+}
+
+/*----------------Navbar----------------*/
+
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(14, 0, 63);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    padding: 25px 8px 6px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #b0afeb;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+.img-prof img{
+    height: 100px;
+    margin: 20px 40px;
+    border-radius: 16px;
+}
+
+.img-prof h3{
+    font-size: 16px;
+    color: var(--white);
+    margin: auto 32px;
+}
+
+.img-prof h1{
+    font-size: 42px;
+    color: var(--white);
+    margin: auto 7px;
+}
+
+.sidebar .icon{
+    background: linear-gradient(rgb(60, 44, 151),rgb(123, 112, 182));
+    color: var(--white);
+    font-size: 12px;
+    padding: 10px;
+    margin: auto 10px;
+    border-radius: 50%;
+}
+#mods{
+    margin-top: 20px;
+}
+ul.mods>li{
+    list-style-type: none;
+    /* padding: 5px !important; */
+    margin-left: -40px;
+}
+
+/*---------------Main Section--------------------*/
+.main {
+  margin-left:240px; /* Same as the width of the sidenav */
+  padding-top: 40px !important;
+  background-color: #e6e1e1 !important;
+  /* height: 100vh; */
+}
+
+/* .main .container{
+  padding: 40px!important;
+} */
+
+.main h3{
+  color: var(--black);
+}
+
+.card{
+  padding: 36px 65px;
+  margin-right: 20px;
+  height: 150px;
+  border: 1px solid rgb(211, 211, 211);
+  box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+}
+
+.back-card{
+  background-color: #fff;
+  padding: 20px !important;
+}
+
+.fa-globe{
+  color: orange;
+}
+
+.fa-user{
+  color: rgb(128, 35, 214);
+}
+
+.fa-cart-plus{
+  color: rgb(67, 201, 112);
+}
+
+.fa-clipboard{
+  color: rgb(236, 67, 67);
+}
+#icon-head{
+  font-size: 22px;
+  color: #333 !important;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+/* .card:nth-child(2){
+  margin-top: 40px !important; 
+} */
+
+.card h3{
+  margin-top: 10px;
+}
+h6#top-cardtext{
+  color: rgb(109, 108, 108);
+  font-weight: 400;
+}
+
+
+.br-chart{
+  background: rgb(216, 73, 73);
+  padding: 15px;
+  color: var(--white);
+}
+
+.back-card{
+  margin-top: 30px;
+}
+
+.back-card p{
+  margin-bottom: 30px !important;
+}
+
+.back-card .acqtxt{
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-left: 50px; 
+
+}
+
+.s-chart{
+  background: rgb(0, 119, 255);
+  padding: 15px;
+  color: var(--white);
+}
+
+.pv-chart{
+  background: rgb(97, 47, 212);
+  padding: 15px;
+  color: var(--white);
+}
+
+
+.doms h5{
+  margin-top: 30px;
+}
+
+.doms h6:last-of-type{
+  margin-top: 30px;
+}
+
+h6 {
+color: rgb(94, 92, 92);
+font-weight: 600;
+font-size: 20px;
+}
+
+
+.due:nth-child(2){
+
+  margin-top: 20px;
+
+}
+
+.mar{
+  background-color: rgb(228, 109, 109);
+  color: var(--white);
+  border-radius: 45%;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+h6#yrs{
+  color: rgb(109, 108, 108);
+  font-weight: 600;
+  font-size: 16px;
+ 
+}
+
+.dvr{
+  background-color: rgb(255, 209, 4);
+  color: var(--white);
+  border-radius: 45%;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.hnr{
+  background-color: rgb(45, 212, 162);
+  color: var(--white);
+  border-radius: 45%;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.new{
+  background-color: rgb(238, 137, 137);
+  color: var(--white);
+  border-radius: 45%;
+  padding: 5px;
+  margin-top: 2px;
+  margin-left: 26px;
+  font-size: 12px;
+}
